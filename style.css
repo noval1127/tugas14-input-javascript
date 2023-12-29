@@ -1,0 +1,112 @@
+body {
+    background-image: url("op.gif");
+}
+.container {
+    display: flexbox;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 150px;
+    width: 950px;
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 1px;
+    padding-left: 15px;
+    background-image: url(jokowi.webp) ;
+}
+
+.container .text {
+    text-align: left;
+    border: 5px solid rgb(19, 21, 14);
+    box-shadow: 5px 5px;
+    margin-top: 10px;
+    width: 400px;
+    color: #E26EE5;
+}
+
+.container .text h1 {
+    margin-left: 20px
+}
+
+.box-one {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.box-one label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7B66FF;
+}
+
+.box-one input {
+    background-color: rgba(232, 231, 231, 0.911);
+    width: 750px;
+    height: 45px;
+    margin-top: 10px;
+    border: hidden;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    text-indent: 7px;
+}
+
+.box-two {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.box-two label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5FBDFF;
+}
+
+.box-two input {
+    background-color: rgba(232, 231, 231, 0.911);
+    width: 750px;
+    height: 45px;
+    margin-top: 10px;
+    border: hidden;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    text-indent: 7px;
+}
+.box-three {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.box-three label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px; 
+    color: aqua;
+}
+
+.box-three input {
+    background-color: rgba(232, 231, 231, 0.911);
+    width: 750px;
+    height: 45px;
+    margin-top: 16px;
+    border: hidden;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    text-indent: 7px;
+}
+
+button {
+    display: flexbox;
+    margin-top: 20px;
+    margin-left: 43px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: bisque;
+    box-shadow: 1px 1px 1px 1px;
+}
+footer{
+    font-size: 15px;
+    color: aliceblue;
+}
